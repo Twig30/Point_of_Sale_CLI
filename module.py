@@ -11,5 +11,18 @@ class PointOfSale:
     print("\nInitializing POS system...")
     
     
-  def start(self): # This is the function that should be used to start the application.
-    print("\nThe app is not complete.")
+  def start(self):# This is the function that should be used to start the application. 
+    print("\n=================================")
+    print("MENU:Please choose an option seen below")
+    print("1. Show Cart")
+    print("2. Add To Cart")
+    print("3. Show Checkout Total")
+    print("4. Checkout")
+    print("5. EXIT")
+    print("=================================")
+
+    choice = input("\nEnter Selection:")
+    if choice == 1:
+
+
+
