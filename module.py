@@ -9,7 +9,18 @@ class PointOfSale:
   def __init__(self):
     self.checkout_total = 0 # This is an example varialbe, remove it or change it as you please.
     print("\nInitializing POS system...")
-    
+  Cart = []
+  def Show_cart(self):
+    for i in cart:
+      index = 0 
+      i = cart[index]
+      print(i)
+      index += 1 
+    if cart is []:
+      print("Your cart is empty")
+
+
+  
     
   def start(self):# This is the function that should be used to start the application. 
     print("\n=================================")
@@ -22,7 +33,11 @@ class PointOfSale:
     print("=================================")
 
     choice = input("\nEnter Selection:")
-    if choice == 1:
+    if choice == "1":
+      print("pulling up cart...")
+      self.Show_cart()
+
+
 
 
 
